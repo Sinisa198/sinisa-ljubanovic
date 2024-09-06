@@ -322,6 +322,8 @@
   </body>
 </html>
  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K6DVV7PQTB"></script>
+
 <script>
 emailjs.init('N9BJd8pk43RGraUpL');
 
@@ -405,8 +407,11 @@ document.getElementById('burger-menu').addEventListener('click', function() {
     nav.classList.toggle('nav-active');
 });
 
+ window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-
+  gtag('config', 'G-K6DVV7PQTB');
 
 
 </script>
