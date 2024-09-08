@@ -23,6 +23,7 @@
         <div class="logo"><a href="#home">
             <img src="logomoj.jpg" alt="Logo" width="50px" height="50px" /></a>
         </div>
+
         <nav class="nav">
             <ul class="nav-list">
                 <li><a href='#about'>About Me</a></li>
@@ -97,7 +98,10 @@
     </div>
    <section class="writing-section" id="what">
     <div style="padding-top:50px">
-  <h1>What I Do</h1>
+  <h1>What I Do
+     <span style="display: block; width: 80px; height: 4px; background-color: #007bff; margin: 10px auto;"></span>
+  </h1>
+  
    </div>
   <div class="posts-container" id="initial-posts">
     <!-- Initial 3 posts -->
@@ -211,59 +215,80 @@
 </section>
 <body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
 
-    <section style="padding: 60px 0; background-color: #eaeaea;" id="projects">
-        <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-         <h2 style="text-align: center; font-size: 2.8rem; color: #333; margin-bottom: 50px; font-family: Arial, sans-serif; ">
-    My projects
-</h2>
+    <section style="padding: 50px; background-color: #fafafa;">
+  <h2 style="text-align: center; font-size: 36px; color: #333;">
+    My Projects
+    <span style="display: block; width: 80px; height: 4px; background-color: #007bff; margin: 10px auto;"></span>
+  </h2>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
+
+    <!-- Project Card 1 -->
+    <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
+      <a href="https://volleyball-forever.com/"><img src="vol1.png" alt="Project 1" style="width: 100%; height: 140px; object-fit: cover;"></a>
+      <div style="padding: 20px;">
+        <h3 style="font-size: 22px; margin-bottom: 10px; color: #333 ; text-align: center; font-family: 'FontAwesome';">Volleyball Forever</h3>
+        <p style="font-size: 16px; color: #777;">"Volleyball Forever" is a website dedicated to volleyball fans, offering information, tips and resources related to the sport.</p>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
+      <a href="https://www.gonina.com/en/home"><img src="gonina1.png" alt="Project 2" style="width: 100%; height: 140px; object-fit: cover;"></a>
+      <div style="padding: 20px;">
+        <h3 style="font-size: 22px; margin-bottom: 10px; color: #333; text-align: center; font-family: 'FontAwesome';">Go Nina</h3>
+        <p style="font-size: 16px; color: #777;">The website "Gonina" presents the portfolio of a foreign engineer, Nina Guo, who is engaged in software development.</p>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
+      <a href="https://reactivepay.com/"><img src="reactive.png" alt="Project 3" style="width: 100%; height: 140px; object-fit: cover;"></a>
+      <div style="padding: 20px;">
+        <h3 style="font-size: 22px; margin-bottom: 10px; color: #333; text-align: center; font-family: 'FontAwesome';">ReactivePay</h3>
+        <p style="font-size: 16px; color: #777;">"ReactivePay" is a website that offers payment solutions, focusing on simplicity and efficiency in the billing process.</p>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<section style="padding: 50px; background-color: #fafafa;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
+
+    <!-- Project Card 1 -->
+    <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
+      <a href="https://redcarpetmovingdmv.com/"><img src="redcarpet.png" alt="Project 1" style="width: 100%; height: 140px; object-fit: cover;"></a>
+      <div style="padding: 20px;">
+        <h3 style="font-size: 22px; margin-bottom: 10px; color: #333; text-align: center; font-family: 'FontAwesome';">Red Carpet Moving</h3>
+        <p style="font-size: 16px; color: #777;">"Red Carpet Moving" is a website of a company specializing in moving and transportation in the DMV (Washington D.C., Maryland, Virginia) area.</p>
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
+      <a href="https://www.liquibase.com/"><img src="liqui.png" alt="Project 2" style="width: 100%; height: 140px; object-fit: cover;"></a>
+      <div style="padding: 20px;">
+        <h3 style="font-size: 22px; margin-bottom: 10px; color: #333; text-align: center; font-family: 'FontAwesome';">Luquibase</h3>
+        <p style="font-size: 16px; color: #777;">Liquibase is a powerful open-source database schema change management tool that helps developers and database administrators track, version, and deploy database changes efficiently.</p>
+      </div>
+    </div>
+
+    <!-- Project Card 3 -->
+    <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
+      <a href="https://www.grantify.io/"><img src="grantify.png" alt="Project 3" style="width: 100%; height: 140px; object-fit: cover;"></a>
+      <div style="padding: 20px;">
+        <h3 style="font-size: 22px; margin-bottom: 10px; color: #333; text-align: center; font-family: 'FontAwesome';">Grantify</h3>
+        <p style="font-size: 16px; color: #777;">Grantify.io is a website dedicated to helping businesses secure government grants and funding for innovation, research, and development projects.</p>
+      </div>
+    </div>
+  </div>
+
+  
 
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 30px;">
-                <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-                    <a href='https://www.gonina.com/en/home'><img src="gonina1.png" alt="Project Image 1" class='image-projects'   ></a>
-                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
-                        <h3 style="margin: 0; font-size: 1.5rem;">Go Nina</h3>
-                        <p style="margin: 5px 0 0; font-size: 1rem;">The website "Gonina" presents the portfolio of a foreign engineer, Nina Guo, who is engaged in software development.</p>
-                    </div>
-                </div>
-                <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-                    <img src="redcarpet.png  " alt="Project Image 2" class='image-projects' />
-                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
-                        <h3 style="margin: 0; font-size: 1.5rem;">Red Carpet Moving</h3>
-                        <p style="margin: 5px 0 0; font-size: 1rem;">"Red Carpet Moving" is a website of a company specializing in moving and transportation in the DMV (Washington D.C., Maryland, Virginia) area.</p>
-                    </div>
-                </div>
-                <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-                    <a href='https://volleyball-forever.com/'><img src="voll.png" alt="Project Image 3" class='image-projects'></a>
-                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
-                        <h3 style="margin: 0; font-size: 1.5rem;">Volleyball Forever</h3>
-                        <p style="margin: 5px 0 0; font-size: 1rem;">"Volleyball Forever" is a website dedicated to volleyball fans, offering information, tips and resources related to the sport.</p>
-                    </div>
-                </div>
-                <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-                   <a href="https://reactivepay.com/"> <img src="reactive.png" alt="Project Image 4"  class='image-projects' ></a>
-                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
-                        <h3 style="margin: 0; font-size: 1.5rem;">Reactive Pay</h3>
-                        <p style="margin: 5px 0 0; font-size: 1rem;">"ReactivePay" is a website that offers payment solutions, focusing on simplicity and efficiency in the billing process.</p>
-                    </div>
-                </div>
-                 <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-                   <a href="https://www.liquibase.com/"> <img src="liqui.png" alt="Project Image 4"  class='image-projects' ></a>
-                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
-                        <h3 style="margin: 0; font-size: 1.5rem;">Liquibase</h3>
-                        <p style="margin: 5px 0 0; font-size: 1rem;">Liquibase is a powerful open-source database schema change management tool that helps developers and database administrators track, version, and deploy database changes efficiently.</p>
-                    </div>
-                </div>
-                 <div style="position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-                    <a href='https://www.grantify.io/'><img src="grantify.png" alt="Project Image 1" class='image-projects'   ></a>
-                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; background-color: rgba(0, 0, 0, 0.6); color: #fff; padding: 15px; box-sizing: border-box; transition: transform 0.4s ease;">
-                        <h3 style="margin: 0; font-size: 1.5rem;">Grantify</h3>
-                        <p style="margin: 5px 0 0; font-size: 1rem;">Grantify.io is a website dedicated to helping businesses secure government grants and funding for innovation, research, and development projects.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+  
+</section>
 <div class="form-container">
         <span class="big-circle"></span>
         <img src="img/shape.png" class="square" alt="" />
@@ -311,6 +336,7 @@
 
         </div>
     </div>
+
 
  
 
@@ -413,8 +439,10 @@ document.getElementById('burger-menu').addEventListener('click', function() {
 
   gtag('config', 'G-K6DVV7PQTB');
 
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.style.setProperty('color-scheme', 'light');
+  }
+});
 
-if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){
-  documnet.documentElement.style.setProperty('color-scheme', 'light')
-}
 </script>
