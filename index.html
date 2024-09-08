@@ -440,9 +440,20 @@ document.getElementById('burger-menu').addEventListener('click', function() {
   gtag('config', 'G-K6DVV7PQTB');
 
 document.addEventListener('DOMContentLoaded', function() {
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  const matchMediaDark = window.matchMedia('(prefers-color-scheme: dark)');
+  
+  if (matchMediaDark.matches) {
     document.documentElement.style.setProperty('color-scheme', 'light');
   }
+
+  matchMediaDark.addEventListener('change', function(e) {
+    if (e.matches) {
+      document.documentElement.style.setProperty('color-scheme', 'light');
+    } else {
+      document.documentElement.style.setProperty('color-scheme', 'light');
+    }
+  });
 });
+
 
 </script>
