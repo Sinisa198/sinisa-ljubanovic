@@ -945,3 +945,14 @@ textarea.input {
 .nav-list li a:hover::after {
   transform: scaleX(1);
 }
+.language-switch {
+  display: flex;
+  gap: 10px;
+}
+.language-switch button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
