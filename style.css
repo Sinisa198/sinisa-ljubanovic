@@ -918,6 +918,9 @@ textarea.input {
     padding: 0.45rem 1.2rem;
   }
 }
+:root {
+    color-scheme: light;
+}
 .nav-list li a {
   text-decoration: none;
   color: white;
