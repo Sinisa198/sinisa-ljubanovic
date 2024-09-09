@@ -461,6 +461,10 @@ h1 {
 .post:hover {
   transform: scale(1.03);
 }
+html {
+  color-scheme: light;
+  background-color: #fff;
+}
 
 .post-image {
   height: 200px;
@@ -556,6 +560,10 @@ h1 {
   50% {
     border-color: black;
   }
+}
+
+:root {
+  color-scheme: light;
 }
 
 @media screen and (max-width: 515px) {
@@ -917,9 +925,6 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
-}
-:root {
-    color-scheme: light;
 }
 .nav-list li a {
   text-decoration: none;
