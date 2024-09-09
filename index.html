@@ -428,23 +428,21 @@ document.getElementById('view-more').addEventListener('click', function(event) {
     }
   });
 
+document.getElementById('burger-menu').addEventListener('click', function() {
+    var nav = document.querySelector('.nav');
+    nav.classList.toggle('nav-active');
+});
+
+ window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K6DVV7PQTB');
 document.addEventListener('DOMContentLoaded', function() {
   document.documentElement.style.setProperty('color-scheme', 'light');
-
-  document.documentElement.classList.add('force-light-mode');
+  document.documentElement.style.backgroundColor = '#fff'; 
 });
-document.addEventListener('DOMContentLoaded', function() {
-  const forceLightMode = () => {
-    document.documentElement.style.setProperty('background-color', '#ffffff', 'important');
-    document.documentElement.style.setProperty('color', '#000000', 'important');
-  };
 
-  forceLightMode();
-
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
-    forceLightMode();
-  });
-});
 
 
 
