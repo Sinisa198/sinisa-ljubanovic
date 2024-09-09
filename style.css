@@ -465,6 +465,15 @@ html {
   color-scheme: light;
   background-color: #fff;
 }
+:root {
+  color-scheme: light;
+  background-color: #ffffff;
+  color: #000000;
+}
+body {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
 
 .post-image {
   height: 200px;
