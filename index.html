@@ -453,4 +453,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.style.filter = "invert(1) hue-rotate(180deg)";
+    
+    alert("Dark mode je isključen. Automatski prebačeno u light mode.");
+  }
+
 </script>
