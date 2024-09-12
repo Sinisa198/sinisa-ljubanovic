@@ -53,6 +53,12 @@
             </div>
         </div>
     </header>
+
+
+  
+
+</button>
+
     <div class="about-me" id="about">
       <h1 class="about-title">About me</h1>
       <div class="content-about-me">
@@ -106,7 +112,6 @@
   
    </div>
   <div class="posts-container" id="initial-posts">
-    <!-- Initial 3 posts -->
     <article class="post">
       <div
         class="post-image"
@@ -157,7 +162,6 @@
     </article>
   </div>
   
-  <!-- Hidden posts -->
   <div class="posts-container hidden-posts" id="hidden-posts">
     <article class="post">
       <div
@@ -215,9 +219,9 @@
   </div>
   
 </section>
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;">
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0;" >
 
-    <section style="padding: 50px; background-color: #fafafa;">
+    <section style="padding: 50px; background-color: #fafafa;"  id="projects">
   <h2 style="text-align: center; font-size: 36px; color: #333;">
     My Projects
     <span style="display: block; width: 80px; height: 4px; background-color: #007bff; margin: 10px auto;"></span>
@@ -225,7 +229,6 @@
 
   <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
 
-    <!-- Project Card 1 -->
     <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
       <a href="https://volleyball-forever.com/"><img src="vol1.png" alt="Project 1" style="width: 100%; height: 140px; object-fit: cover;"></a>
       <div style="padding: 20px;">
@@ -234,7 +237,6 @@
       </div>
     </div>
 
-    <!-- Project Card 2 -->
     <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
       <a href="https://www.gonina.com/en/home"><img src="gonina1.png" alt="Project 2" style="width: 100%; height: 140px; object-fit: cover;"></a>
       <div style="padding: 20px;">
@@ -243,7 +245,6 @@
       </div>
     </div>
 
-    <!-- Project Card 3 -->
     <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
       <a href="https://reactivepay.com/"><img src="reactive.png" alt="Project 3" style="width: 100%; height: 140px; object-fit: cover;"></a>
       <div style="padding: 20px;">
@@ -257,7 +258,6 @@
 <section style="padding: 50px; background-color: #fafafa;">
   <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
 
-    <!-- Project Card 1 -->
     <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
       <a href="https://redcarpetmovingdmv.com/"><img src="redcarpet.png" alt="Project 1" style="width: 100%; height: 140px; object-fit: cover;"></a>
       <div style="padding: 20px;">
@@ -266,7 +266,6 @@
       </div>
     </div>
 
-    <!-- Project Card 2 -->
     <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
       <a href="https://www.liquibase.com/"><img src="liqui.png" alt="Project 2" style="width: 100%; height: 140px; object-fit: cover;"></a>
       <div style="padding: 20px;">
@@ -275,7 +274,6 @@
       </div>
     </div>
 
-    <!-- Project Card 3 -->
     <div style="width: 300px; background-color: #fff; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease;">
       <a href="https://www.grantify.io/"><img src="grantify.png" alt="Project 3" style="width: 100%; height: 140px; object-fit: cover;"></a>
       <div style="padding: 20px;">
@@ -295,7 +293,6 @@
         <span class="big-circle"></span>
         <img src="img/shape.png" class="square" alt="" />
         <div class="form">
-            <!-- Contact Info Section -->
             <div class="contact-info">
                 <h3 class="title">Let's get in touch</h3>
                 <p class="text">
@@ -312,7 +309,6 @@
                 
             </div>
 
-            <!-- Contact Form Section -->
             <div class="contact-form" id="contact">
     <span class="circle one"></span>
     <span class="circle two"></span>
@@ -453,10 +449,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
- if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    document.documentElement.style.filter = "invert(1) hue-rotate(180deg)";
-    
-    alert("Dark mode je isključen. Automatski prebačeno u light mode.");
-  }
+
 
 </script>
